@@ -5,7 +5,7 @@
         </div>
         <div class="container mx-auto max-w-7xl">
             <div class="text-center mb-8 sm:mb-12 md:mb-16 relative">
-                <h2 class="absolute z-10 left-1/2 top-1/7 -translate-x-1/2 -translate-y-1/2 text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-transparent opacity-10 whitespace-nowrap pointer-events-none select-none"
+                <h2 class="absolute left-1/2 top-1/7 -translate-x-1/2 -translate-y-1/2 text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-transparent opacity-10 whitespace-nowrap pointer-events-none select-none"
                     style="-webkit-text-stroke: 2px rgba(255, 255, 255, 0.5); text-stroke: 2px rgba(255, 255, 255, 0.5);">
                     ROADMAP</h2>
                 <h2 class="relative text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-3 sm:mb-4">Roadmap
@@ -15,20 +15,20 @@
                     et dolore magna aliqua.
                 </p>
             </div>
-            <div class="mb-12 px-4 sm:px-12 mt-12 relative z-10">
+            <div class="mb-12 px-4 sm:px-12 mt-12 relative z-0">
                 <div class="relative">
                     <div class="absolute top-1/2 left-0 w-full h-0.5 bg-gray-700 -translate-y-1/2"></div>
                     <div class="absolute top-1/2 left-0 h-0.5 bg-yellow-500 -translate-y-1/2 shadow-[0_0_10px_rgba(234,179,8,0.5)] transition-all duration-500"
                         :style="{ width: `${(currentPhase / 3) * 100}%` }"></div>
 
-                    <div class="relative z-10 flex justify-between items-center">
+                    <div class="relative flex justify-between items-center">
                         <div class="flex flex-col items-center relative group cursor-pointer" @click="goToPhase(0)">
                             <div v-if="currentPhase === 0"
                                 class="absolute -inset-3 bg-yellow-500/20 rounded-full blur-md"></div>
                             <div :class="currentPhase === 0
                                 ? 'w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-b from-yellow-300 to-yellow-600 border-yellow-200 shadow-[0_0_15px_rgba(234,179,8,0.6)]'
                                 : 'w-4 h-4 sm:w-5 sm:h-5 bg-zinc-900 border-gray-500 group-hover:border-gray-300'"
-                                class="rounded-full border-2 relative z-10 transition-all duration-300 group-hover:scale-110">
+                                class="rounded-full border-2 relative transition-all duration-300 group-hover:scale-110">
                             </div>
                             <span
                                 :class="currentPhase === 0 ? 'text-yellow-500 font-bold' : 'text-gray-500 group-hover:text-gray-300'"
@@ -42,7 +42,7 @@
                             <div :class="currentPhase === 1
                                 ? 'w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-b from-yellow-300 to-yellow-600 border-yellow-200 shadow-[0_0_15px_rgba(234,179,8,0.6)]'
                                 : 'w-4 h-4 sm:w-5 sm:h-5 bg-zinc-900 border-gray-500 group-hover:border-gray-300'"
-                                class="rounded-full border-2 relative z-10 transition-all duration-300 group-hover:scale-110">
+                                class="rounded-full border-2 relative transition-all duration-300 group-hover:scale-110">
                             </div>
                             <span
                                 :class="currentPhase === 1 ? 'text-yellow-500 font-bold' : 'text-gray-500 group-hover:text-gray-300'"
@@ -55,7 +55,7 @@
                             <div :class="currentPhase === 2
                                 ? 'w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-b from-yellow-300 to-yellow-600 border-yellow-200 shadow-[0_0_15px_rgba(234,179,8,0.6)]'
                                 : 'w-4 h-4 sm:w-5 sm:h-5 bg-zinc-900 border-gray-500 group-hover:border-gray-300'"
-                                class="rounded-full border-2 relative z-10 transition-all duration-300 group-hover:scale-110">
+                                class="rounded-full border-2 relative transition-all duration-300 group-hover:scale-110">
                             </div>
                             <span
                                 :class="currentPhase === 2 ? 'text-yellow-500 font-bold' : 'text-gray-500 group-hover:text-gray-300'"
@@ -68,7 +68,7 @@
                             <div :class="currentPhase === 3
                                 ? 'w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-b from-yellow-300 to-yellow-600 border-yellow-200 shadow-[0_0_15px_rgba(234,179,8,0.6)]'
                                 : 'w-4 h-4 sm:w-5 sm:h-5 bg-zinc-900 border-gray-500 group-hover:border-gray-300'"
-                                class="rounded-full border-2 relative z-10 transition-all duration-300 group-hover:scale-110">
+                                class="rounded-full border-2 relative transition-all duration-300 group-hover:scale-110">
                             </div>
                             <span
                                 :class="currentPhase === 3 ? 'text-yellow-500 font-bold' : 'text-gray-500 group-hover:text-gray-300'"

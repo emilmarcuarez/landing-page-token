@@ -20,12 +20,13 @@
                 </ul>
                 <div class="mt-4 flex flex-col justify-center lg:justify-start gap-3">
                     <p class="text-yellow-600 font-bold">CIGARCRYPTO ($CIGAR) — CONTRACT ADDRESS</p>
-                    <div class="w-100 flex">
+                    <div class="w-full flex">
                         <form class="bg-zinc-300 px-1 py-1 rounded-full shadow-lg flex gap-2 w-full">
-                            <input type="text" class="p-1 rounded-full flex-1 text-center font-bold"
+                            <input type="text"
+                                class="p-1 rounded-full flex-1 text-center font-bold text-sm sm:text-base"
                                 value="0x15454545555dasdsdasdqwda5555">
                             <button type="submit"
-                                class="button-copy text-white px-3 rounded-full font-bold flex-shrink-0">Copy</button>
+                                class="button-copy text-white px-3 rounded-full font-bold flex-shrink-0 text-sm sm:text-base">Copy</button>
                         </form>
                     </div>
                 </div>

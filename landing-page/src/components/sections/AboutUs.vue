@@ -18,20 +18,13 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
                         <h4 class="text-white text-xl font-bold pt-7">CigarCrypto</h4>
-                        <p class="text-white text-lg pt-5">CigarCrypto is a cryptocurrency token designed to unite
-                            lifestyle,
-                            an exclusive community,
-                            and decentralized finance. Under the domain cigarcrypto.vip, we offer a distinctive
-                            experience: a token that represents a lifestyle, a community, and an elite investment
-                            opportunity.
-                            an exclusive community,
-                            and decentralized finance. Under the domain cigarcrypto.vip, we offer a distinctive
-                            experience: a token that represents a lifestyle, a community, and an elite investment
-                            opportunity.
-                            an exclusive community,
-                            and decentralized finance. Under the domain cigarcrypto.vip, we offer a distinctive
-                            experience: a token that represents a lifestyle, a community, and an elite investment
-                            opportunity.</p>
+                        <p class="text-white text-lg pt-5">CigarCrypto is a Solana token designed to unite lifestyle,
+                            exclusivity, and decentralized finance. Under the domain cigarcrypto.vip, we offer a
+                            distinctive experience: a token that represents a lifestyle, a community, and an exclusive
+                            membership to the first on-chain cigar club. Tokenization enables worldwide access to a
+                            premium cigar & lifestyle community, unifying millions of cigar connoisseurs at a global
+                            scale. Our token enables access to our global community with exclusive rewards and offerings
+                            to members; enhanced by the speed and security of the Solana blockchain.</p>
                     </div>
                     <div>
                         <img src="/img/aboutUs.png" alt="about us" class="mx-auto my-6 w-100 rounded-lg shadow-lg">
@@ -55,11 +48,9 @@
                         class="absolute inset-0 bg-gradient-to-br from-yellow-500/0 to-yellow-600/0 group-hover:from-yellow-600/5 group-hover:to-yellow-500/10 rounded-2xl transition-all duration-300">
                     </div>
                     <div class="relative ">
-                        <h3 class="text-2xl font-bold text-white mb-4 mt-4">Loren</h3>
+                        <h3 class="text-2xl font-bold text-white mb-4 mt-4">Community</h3>
                         <p class="text-gray-400 leading-relaxed">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis
+                            Build a global community focused on cigar culture and exclusive membership opportunities to become the first worldwide on-chain cigar club.
                         </p>
                     </div>
                 </div>
@@ -75,10 +66,9 @@
                         class="absolute inset-0 bg-gradient-to-br from-yellow-600/0 to-yellow-600/0 group-hover:from-yellow-600/5 group-hover:to-yellow-600/10 rounded-2xl transition-all duration-300">
                     </div>
                     <div class="relative">
-                        <h3 class="text-2xl font-bold text-white mb-4 mt-4">Test</h3>
+                        <h3 class="text-2xl font-bold text-white mb-4 mt-4">Exclusivity </h3>
                         <p class="text-gray-400 leading-relaxed">
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                            nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                            Members may unlock access to exclusive offerings through our partnerships with premium cigar brands. Create a new & unique way to shop for cigars online.
                         </p>
                     </div>
                 </div>
@@ -94,16 +84,15 @@
                         class="absolute inset-0 bg-gradient-to-br from-amber-600/0 to-amber-600/0 group-hover:from-amber-600/5 group-hover:to-amber-600/10 rounded-2xl transition-all duration-300">
                     </div>
                     <div class="relative ">
-                        <h3 class="text-2xl font-bold text-white mb-4 mt-4">Values</h3>
+                        <h3 class="text-2xl font-bold text-white mb-4 mt-4">Security </h3>
                         <p class="text-gray-400 leading-relaxed">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+                        Enable access to unparalleled speed & security via tokenization of membership & rewards on the Solana blockchain.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="flex flex-col gap-3 justify-center items-center mt-16 mb-8">
+            <!-- <div class="flex flex-col gap-3 justify-center items-center mt-16 mb-8">
                 <h3 class="text-white text-xl font-bold inline-block border-b-[3px] border-yellow-500 pb-2">Commitment
                     to Transparency and Community
                 </h3>
@@ -113,7 +102,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate est nam temporibus enim. Eum
                     culpa, odio ab eaque placeat rem necessitatibus obcaecati repudiandae saepe hic sint quod et
                     cupiditate corrupti.</p>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>

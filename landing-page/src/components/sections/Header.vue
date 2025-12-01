@@ -7,16 +7,15 @@
                     CIGARCRYPTO.VIP — Welcome to the Crypto-Club elite
                 </h1>
                 <p class="text-lg sm:text-xl md:text-xl text-white font-medium">
-                    CigarCrypto is a blockchain-based token, developed under the ERC-20 standard, created to unite
-                    investors, discerning consumers, and a global community that appreciates the premium lifestyle.
+                CigarCrypto is a blockchain-based token, developed under the SPL Token 2022 standard, created as a premium lifestyle & community token. Enhance your cigar experience with Web3 security and exclusive benefits. Join the world’s first on-chain cigar club.
                 </p>
                 <p class="text-base sm:text-lg md:text-xl lg:text-xl text-white leading-relaxed">
-                    CigarCrypto will allow users worldwide to:
+                CigarCrypto will grant users worldwide:
                 </p>
                 <ul class="list-disc list-inside text-base sm:text-lg md:text-xl lg:text-xl text-white leading-relaxed">
-                    <li>Make Payments</li>
-                    <li>Trade cryptocurrencies quickly and securely</li>
-                    <li>Support partner businesses and projects</li>
+                    <li>Exclusive Cigar Club Membership</li>
+                    <li>Blockchain Security & Transparency</li>
+                    <li>Access to Unique Lifestyle Offerings</li>
                 </ul>
                 <div class="mt-4 flex flex-col justify-center lg:justify-start gap-3">
                     <p class="text-yellow-600 font-bold">CIGARCRYPTO ($CIGAR) — CONTRACT ADDRESS</p>

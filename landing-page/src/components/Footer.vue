@@ -1,7 +1,7 @@
 <template>
   <footer class=" py-8 px-6">
     <div class="container mx-auto max-w-15xl">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="flex">
           <div>
             <img src="/img/logo-token.png" alt="logo-token" class="w-40 rounded-full">
@@ -25,10 +25,10 @@
           </div>
 
         </div>
-      </div>
+      </div> -->
       <div class="mt-8 pt-8 border-t border-amber-500 text-center">
         <p class="text-amber-100 text-sm">
-   © 2025 .Todos los derechos reservados.
+   Copyright © 2024 GREEN LEAF INNOVATIONS,INC. - All Rights Reserved. Cigarcrypto.vip is a registered mark od Green Leaf Innovations, Inc.
         </p>
       </div>
     </div>

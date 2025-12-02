@@ -17,7 +17,7 @@
                     <li>Blockchain Security & Transparency</li>
                     <li>Access to Unique Lifestyle Offerings</li>
                 </ul>
-                <div class="mt-4 flex flex-col justify-center lg:justify-start gap-3">
+                <!-- <div class="mt-4 flex flex-col justify-center lg:justify-start gap-3">
                     <p class="text-yellow-600 font-bold">CIGARCRYPTO ($CIGAR) — CONTRACT ADDRESS</p>
                     <div class="w-full flex">
                         <form class="bg-zinc-300 px-1 py-1 rounded-full shadow-lg flex gap-2 w-full">
@@ -28,29 +28,29 @@
                                 class="button-copy text-white px-3 rounded-full font-bold flex-shrink-0 text-sm sm:text-base">Copy</button>
                         </form>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
-        <div class="order-2 lg:order-2 flex items-center justify-center px-6 py-6 lg:hidden">
+        <!-- <div class="order-2 lg:order-2 flex items-center justify-center px-6 py-6 lg:hidden">
             <div class="inline-flex gap-3 sm:gap-5 bg-white p-2 sm:p-3 rounded-lg shadow-lg">
                 <div class="flex flex-col justify-center items-center">
                     <img src="/img/qr.png" alt="QR Code" class="h-48 sm:h-40 md:h-48 w-auto">
                     <p class="font-bold">Scan the QR code</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="order-3 lg:order-2 lg:col-span-1 flex items-start justify-center relative min-h-[40vh] lg:min-h-0">
             <img class="w-auto max-h-[86vh] object-contain object-top" src="/img/woman-banner.png" alt="tabaco token">
 
-            <div
+            <!-- <div
                 class="hidden lg:flex absolute top-4/5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 gap-3 sm:gap-5 bg-white p-2 sm:p-3 rounded-lg shadow-lg z-10">
                 <div class="flex flex-col justify-center items-center">
                     <img src="/img/qr.png" alt="QR Code" class="h-48 sm:h-40 md:h-48 lg:h-56 w-auto">
                     <p class="font-bold">Scan the QR code</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>

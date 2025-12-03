@@ -10,10 +10,6 @@
                     CONTACT US</h2>
                 <h2 class="relative text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-3 sm:mb-4">Contact Us
                 </h2>
-                <p class="text-gray-400 text-base sm:text-lg md:text-xl max-w-3xl mx-auto px-4 pt-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">

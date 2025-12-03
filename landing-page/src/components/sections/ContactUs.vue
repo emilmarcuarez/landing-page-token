@@ -68,52 +68,45 @@
             <div class="mt-8">
                 <div class="flex flex-wrap justify-center space-x-4 mb-6 gap-6">
                     <div class="flex flex-col items-center">
-                        <div
-                            class="w-12 h-12 rounded-full flex items-center justify-center cursor-pointer transition-colors mb-2">
-                            <img src="/img/email.png" alt="Email">
-                        </div>
-                        <span class="text-white text-sm">Email</span>
-                    </div>
-                    <div class="flex flex-col items-center">
-                        <div
+                        <a href="https://t.me/otcmemecorp" target="_blank" rel="noopener noreferrer"
                             class="w-12 h-12 rounded-full flex items-center justify-center cursor-pointer transition-colors mb-2">
                             <img src="/img/telegram.png" alt="Telegram">
-                        </div>
+                        </a>
                         <span class="text-white text-sm">Telegram</span>
                     </div>
                     <div class="flex flex-col items-center">
-                        <div
+                        <a href="https://www.instagram.com/p/CSVb2VLHPOD/?igsh=YzNqMzRwbmI1Z2Ft" target="_blank" rel="noopener noreferrer"
                             class="w-12 h-12 rounded-full flex items-center justify-center cursor-pointer transition-colors mb-2">
                             <img src="/img/instagram.png" alt="Instagram">
-                        </div>
+                        </a>
                         <span class="text-white text-sm">Instagram</span>
                     </div>
                     <div class="flex flex-col items-center">
-                        <div
+                        <a href="https://www.facebook.com/share/1DMxjKHwQz/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer"
                             class="w-12 h-12 rounded-full flex items-center justify-center cursor-pointer transition-colors mb-2">
                             <img src="/img/facebook.png" alt="Facebook">
-                        </div>
+                        </a>
                         <span class="text-white text-sm">Facebook</span>
                     </div>
                     <div class="flex flex-col items-center">
-                        <div
+                        <a href="https://x.com/cigarcryptovip?s=11&t=_rgs2bRlexjQWH3JV5tqyQ" target="_blank" rel="noopener noreferrer"
                             class="w-12 h-12 rounded-full flex items-center justify-center cursor-pointer transition-colors mb-2 golden-pulse">
                             <img src="/img/x.png" alt="x">
-                        </div>
+                        </a>
                         <span class="text-white text-sm">X</span>
                     </div>
                     <div class="flex flex-col items-center">
-                        <div
+                        <a href="https://youtube.com/@cigarcryptovip?si=-KLK9gfKIcp5fwP5" target="_blank" rel="noopener noreferrer"
                             class="w-12 h-12 rounded-full flex items-center justify-center cursor-pointer transition-colors mb-2">
                             <img src="/img/youtube.png" alt="Youtube">
-                        </div>
+                        </a>
                         <span class="text-white text-sm">Youtube</span>
                     </div>
                     <div class="flex flex-col items-center">
-                        <div
+                        <a href="https://discord.gg/ZtW7XNpBp5" target="_blank" rel="noopener noreferrer"
                             class="w-12 h-12 rounded-full flex items-center justify-center cursor-pointer transition-colors mb-2">
                             <img src="/img/discord.png" alt="discord">
-                        </div>
+                        </a>
                         <span class="text-white text-sm">Discord</span>
                     </div>
                 </div>

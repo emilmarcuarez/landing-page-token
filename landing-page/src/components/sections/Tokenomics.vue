@@ -16,51 +16,51 @@
             class="w-full max-w-md lg:max-w-full h-auto rounded-lg" />
         </div>
         <div class="text-white p-4 sm:p-6">
-          <div class="bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-t-2xl p-6 sm:p-8">
-            <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-600 text-center tracking-wider">
+          <div class="bg-gradient-to-b from-yellow-400 to-yellow-700 rounded-t-2xl p-6 sm:p-8">
+            <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center tracking-wider">
               TOKEN VESTING
             </h3>
           </div>
 
-          <div class="bg-white rounded-b-2xl p-6 sm:p-8 space-y-3 sm:space-y-4">
+          <div class="bg-zinc-800 border border-zinc-700 border-t-0 rounded-b-2xl p-6 sm:p-8 space-y-3 sm:space-y-4">
             <div class="flex items-start gap-3">
               <span class="text-2xl">💎</span>
-              <p class="text-blue-600 font-bold text-sm sm:text-base md:text-lg">
+              <p class="text-white font-bold text-sm sm:text-base md:text-lg">
                 GRADUATION: 10% UNLOCK (48M TOKENS)
               </p>
             </div>
 
             <div class="flex items-start gap-3">
               <span class="text-2xl">🔒</span>
-              <p class="text-blue-600 font-bold text-sm sm:text-base md:text-lg">
+              <p class="text-white font-bold text-sm sm:text-base md:text-lg">
                 MONTH 6: 20% UNLOCK (96M TOKENS)
               </p>
             </div>
 
             <div class="flex items-start gap-3">
               <span class="text-2xl">🔒</span>
-              <p class="text-blue-600 font-bold text-sm sm:text-base md:text-lg">
+              <p class="text-white font-bold text-sm sm:text-base md:text-lg">
                 MONTH 12: 20% UNLOCK (96M TOKENS)
               </p>
             </div>
 
             <div class="flex items-start gap-3">
               <span class="text-2xl">🔒</span>
-              <p class="text-blue-600 font-bold text-sm sm:text-base md:text-lg">
+              <p class="text-white font-bold text-sm sm:text-base md:text-lg">
                 MONTH 18: 20% UNLOCK (96M TOKENS)
               </p>
             </div>
 
             <div class="flex items-start gap-3">
               <span class="text-2xl">🔒</span>
-              <p class="text-blue-600 font-bold text-sm sm:text-base md:text-lg">
+              <p class="text-white font-bold text-sm sm:text-base md:text-lg">
                 MONTH 24: 20% UNLOCK (96M TOKENS)
               </p>
             </div>
 
             <div class="flex items-start gap-3">
               <span class="text-2xl">❌</span>
-              <p class="text-blue-600 font-bold text-sm sm:text-base md:text-lg">
+              <p class="text-white font-bold text-sm sm:text-base md:text-lg">
                 MONTH 30: FINAL 10% UNLOCK (48M TOKENS)
               </p>
             </div>

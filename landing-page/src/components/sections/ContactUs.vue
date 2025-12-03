@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-zinc-950 py-20 px-6 relative">
+    <div class="bg-zinc-950 py-20 px-6 relative overflow-hidden">
         <div class="absolute top-0 left-0 w-90 h-150 bg-no-repeat opacity-10 rotate-180 z-0"
             style="background-image: url('/img/figura-fondo.png'); background-size: 200% 100%; background-position: 0% 0%; animation: slightRotate 10s ease-in-out infinite;">
         </div>
@@ -116,23 +116,9 @@
                     <div class="flex flex-col items-center">
                         <div
                             class="w-12 h-12 rounded-full flex items-center justify-center cursor-pointer transition-colors mb-2">
-                            <img src="/img/linkedin.png" alt="linkedin">
-                        </div>
-                        <span class="text-white text-sm">Linkedin</span>
-                    </div>
-                    <div class="flex flex-col items-center">
-                        <div
-                            class="w-12 h-12 rounded-full flex items-center justify-center cursor-pointer transition-colors mb-2">
                             <img src="/img/discord.png" alt="discord">
                         </div>
                         <span class="text-white text-sm">Discord</span>
-                    </div>
-                    <div class="flex flex-col items-center">
-                        <div
-                            class="w-12 h-12 rounded-full flex items-center justify-center cursor-pointer transition-colors mb-2">
-                            <img src="/img/reddit.png" alt="Reddit">
-                        </div>
-                        <span class="text-white text-sm">Reddit</span>
                     </div>
                 </div>
             </div>

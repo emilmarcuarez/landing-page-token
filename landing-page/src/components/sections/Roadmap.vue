@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-zinc-950 py-12 sm:py-16 md:py-20 px-4 sm:px-6 relative">
+    <div class="bg-zinc-950 py-12 sm:py-16 md:py-20 px-4 sm:px-6 relative overflow-hidden">
         <div class="absolute top-0 right-0 w-90 h-150 bg-no-repeat opacity-10"
             style="background-image: url('/img/figura-fondo.png'); background-size: 200% 100%; background-position: 0% 0%; animation: slightRotate 10s ease-in-out infinite;">
         </div>

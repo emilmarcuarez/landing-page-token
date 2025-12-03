@@ -28,7 +28,7 @@
       </div> -->
       <div class="mt-8 pt-8 border-t border-amber-500 text-center">
         <p class="text-amber-100 text-sm">
-   Copyright © 2024 GREEN LEAF INNOVATIONS,INC. - All Rights Reserved. Cigarcrypto.vip is a registered mark od Green Leaf Innovations, Inc.
+   Copyright © 2024 GREEN LEAF INNOVATIONS,INC. - All Rights Reserved. Cigarcrypto.vip is a registered mark of Green Leaf Innovations, Inc.
         </p>
       </div>
     </div>

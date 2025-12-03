@@ -51,7 +51,7 @@
               Us</a>
           </li>
           <li>
-            <a href="#" class="block-inline py-3 px-3 text-white rounded-4xl button-buyNow">BUY NOW</a>
+            <a href="https://otcm.fun/?buy=A7hGiMN1VK" class="block-inline py-3 px-3 text-white rounded-4xl button-buyNow">BUY NOW</a>
           </li>
         </ul>
       </div>

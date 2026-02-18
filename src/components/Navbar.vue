@@ -1,0 +1,52 @@
+<template>
+    
+<nav class="bg-neutral-primary fixed w-full z-20 top-0 start-0 bg-black">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 xl:py-4">
+    <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="/img/logo.png" class="h-20 rounded-full" alt="Token Logo" />
+    </a>
+    <button @click="toggleMenu" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary z-50" aria-controls="navbar-default" :aria-expanded="isMenuOpen">
+        <span class="sr-only">Open main menu</span>
+        <svg v-if="!isMenuOpen" class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+        <svg v-else class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+    
+    <div v-if="isMenuOpen" @click="toggleMenu" class="fixed top-0 right-0 w-1/2 h-full z-30 md:hidden"></div>
+
+    <div :class="{ '-translate-x-full': !isMenuOpen, 'translate-x-0': isMenuOpen }" class="bg-black fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform bg-neutral-primary w-1/2 md:translate-x-0 md:static md:h-auto md:w-auto md:bg-transparent md:p-0 md:overflow-visible md:transition-none" id="navbar-default">
+      <ul class="font-medium flex flex-col gap-5 p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+        <li>
+          <a href="#home" @click="toggleMenu" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#about" @click="toggleMenu" class="block py-2 px-3 text-white rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">About us</a>
+        </li>
+        <li>
+          <a href="#roadmap" @click="toggleMenu" class="block py-2 px-3 text-white rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Roadmap</a>
+        </li>
+        <li>
+          <a href="#tokenomics" @click="toggleMenu" class="block py-2 px-3 text-white rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Tokenomics</a>
+        </li>
+        <li>
+          <a href="#contact" @click="toggleMenu" class="block py-2 px-3 text-white rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Contact Us</a>
+        </li>
+        <li>
+          <a href="#" class="block-inline py-3 px-3 text-white rounded-4xl bg-amber-600">BUY NOW</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</template>
+<script setup>
+import { ref } from 'vue';
+
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+};
+</script>
+<style scoped>
+</style>
